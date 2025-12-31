@@ -37,7 +37,6 @@ token.json
 *.csv
 *.xlsx
 *.xls
-*.txt
 *.log
 
 # Jika ingin simpan contoh data saja, gunakan whitelist
