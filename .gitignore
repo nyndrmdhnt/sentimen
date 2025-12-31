@@ -1,0 +1,92 @@
+# ===============================
+# Python & Environment
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment (conda / venv)
+env/
+venv/
+.venv/
+conda-env/
+.env/
+
+# ===============================
+# Jupyter & Notebook
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/secrets.toml
+
+# ===============================
+# Google API & Credentials (SANGAT PENTING)
+# ===============================
+credentials.json
+token.pickle
+token.json
+
+# ===============================
+# OCR & Data Output
+# ===============================
+*.csv
+*.xlsx
+*.xls
+*.txt
+*.log
+
+# Jika ingin simpan contoh data saja, gunakan whitelist
+# !example_data/*.csv
+
+# ===============================
+# Images (hasil download / OCR)
+# ===============================
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.bmp
+*.gif
+
+# ===============================
+# ML / Transformers Cache
+# ===============================
+.cache/
+.cache/huggingface/
+.cache/torch/
+huggingface/
+torch/
+
+# ===============================
+# Matplotlib / Seaborn
+# ===============================
+*.png
+*.svg
+
+# ===============================
+# OS & Editor
+# ===============================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Temporary Files
+# ===============================
+tmp/
+temp/
