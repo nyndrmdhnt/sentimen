@@ -1,0 +1,11 @@
+streamlit
+pandas
+pillow
+pytesseract
+matplotlib
+seaborn
+transformers
+torch
+google-auth
+google-auth-oauthlib
+google-api-python-client
